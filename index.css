@@ -223,3 +223,17 @@ nav .item-3 {
 .safety-info p {
   font-size: 1.2rem;
 }
+
+/* Footer Elements */
+footer {
+  background-color: #f9e7dc;
+}
+
+footer .footer-img {
+  height: 30vwgot;
+  overflow: hidden;
+}
+
+footer nav {
+  padding: 3% 0;
+}
