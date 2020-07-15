@@ -117,31 +117,60 @@ body {
   font-family: "Roboto Mono", monospace;
 }
 
-/* Header Elements */
-header {
+.container {
   margin: 0 5%;
 }
 
-header h1 {
-  font-family: "Chelsea Market", cursive;
+p {
+  margin-bottom: 1.5%;
+  font-size: 1.8rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+p strong {
+  font-weight: 600;
+}
+
+/* Header Elements */
+header {
+  margin-top: 2%;
+}
+
+.intro {
+  text-align: center;
+  margin: 5% 0;
 }
 
 .intro img,
 .intro .intro-text {
   display: inline-block;
+  vertical-align: middle;
 }
 
 .intro img {
-  width: 20%;
+  width: 25%;
   border-radius: 50%;
   vertical-align: middle;
+  margin: 0 2%;
+}
+
+.intro .intro-text {
+  width: 70%;
+  text-align: center;
+}
+
+.intro .intro-text h1 {
+  font-family: "Chelsea Market", cursive;
+  font-size: 5rem;
+  margin-bottom: 1.5%;
 }
 
 /* Nav Elements(for header and footer */
 nav {
   text-align: center;
-  border: 1px solid #000;
-  margin: 2% 0;
 }
 
 nav a {
@@ -150,9 +179,10 @@ nav a {
   padding: 5px 10px;
   font-size: 2rem;
   text-decoration: none;
-  width: 20%;
+  width: 18%;
   border-radius: 10px;
-  margin: 0 5%;
+  margin: 0 6%;
+  vertical-align: middle;
 }
 
 nav .item-1 {
@@ -170,4 +200,26 @@ nav .item-3 {
 /* Main Content Elements */
 #main-content .description {
   background-color: #ddb9a3;
+  padding: 2%;
+  margin-bottom: 5%;
+}
+
+#main-content .description p {
+  text-align: center;
+  color: white;
+}
+
+.safety-info {
+  width: 25%;
+  margin: 0 auto 5%;
+  text-align: center;
+}
+
+.safety-info img {
+  width: 50%;
+  margin-bottom: 5%;
+}
+
+.safety-info p {
+  font-size: 1.2rem;
 }
