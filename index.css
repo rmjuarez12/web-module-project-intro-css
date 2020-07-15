@@ -155,6 +155,15 @@ header {
   border-radius: 50%;
   vertical-align: middle;
   margin: 0 2%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.intro img:hover {
+  border-radius: 5%;
 }
 
 .intro .intro-text {
@@ -183,18 +192,27 @@ nav a {
   border-radius: 10px;
   margin: 0 6%;
   vertical-align: middle;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  -ms-transition: background 0.3s ease-in-out;
+  -o-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+
+nav a:hover {
+  background-color: black;
 }
 
 nav .item-1 {
-  background: #ff764e;
+  background-color: #ff764e;
 }
 
 nav .item-2 {
-  background: #5ed3eb;
+  background-color: #5ed3eb;
 }
 
 nav .item-3 {
-  background: #ffcd69;
+  background-color: #ffcd69;
 }
 
 /* Main Content Elements */
@@ -202,6 +220,15 @@ nav .item-3 {
   background-color: #ddb9a3;
   padding: 2%;
   margin-bottom: 5%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#main-content .description:hover {
+  background-color: black;
 }
 
 #main-content .description p {
@@ -230,8 +257,12 @@ footer {
 }
 
 footer .footer-img {
-  height: 30vwgot;
+  height: 30vw;
   overflow: hidden;
+}
+
+footer .footer-img img {
+  width: 100%;
 }
 
 footer nav {
