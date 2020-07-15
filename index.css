@@ -1,0 +1,270 @@
+/* reset css */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* every element is a border-box */
+* {
+  box-sizing: border-box;
+}
+
+/* Global Elements */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+.container {
+  margin: 0 5%;
+}
+
+p {
+  margin-bottom: 1.5%;
+  font-size: 1.8rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+p strong {
+  font-weight: 600;
+}
+
+/* Header Elements */
+header {
+  margin-top: 2%;
+}
+
+.intro {
+  text-align: center;
+  margin: 5% 0;
+}
+
+.intro img,
+.intro .intro-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.intro img {
+  width: 25%;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin: 0 2%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.intro img:hover {
+  border-radius: 5%;
+}
+
+.intro .intro-text {
+  width: 70%;
+  text-align: center;
+}
+
+.intro .intro-text h1 {
+  font-family: "Chelsea Market", cursive;
+  font-size: 5rem;
+  margin-bottom: 1.5%;
+}
+
+/* Nav Elements(for header and footer */
+nav {
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+  color: white;
+  padding: 5px 10px;
+  font-size: 2rem;
+  text-decoration: none;
+  width: 18%;
+  border-radius: 10px;
+  margin: 0 6%;
+  vertical-align: middle;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  -ms-transition: background 0.3s ease-in-out;
+  -o-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+
+nav a:hover {
+  background-color: black;
+}
+
+nav .item-1 {
+  background-color: #ff764e;
+}
+
+nav .item-2 {
+  background-color: #5ed3eb;
+}
+
+nav .item-3 {
+  background-color: #ffcd69;
+}
+
+/* Main Content Elements */
+#main-content .description {
+  background-color: #ddb9a3;
+  padding: 2%;
+  margin-bottom: 5%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#main-content .description:hover {
+  background-color: black;
+}
+
+#main-content .description p {
+  text-align: center;
+  color: white;
+}
+
+.safety-info {
+  width: 25%;
+  margin: 0 auto 5%;
+  text-align: center;
+}
+
+.safety-info img {
+  width: 50%;
+  margin-bottom: 5%;
+}
+
+.safety-info p {
+  font-size: 1.2rem;
+}
+
+/* Footer Elements */
+footer {
+  background-color: #f9e7dc;
+}
+
+footer .footer-img {
+  height: 30vw;
+  overflow: hidden;
+}
+
+footer .footer-img img {
+  width: 100%;
+}
+
+footer nav {
+  padding: 3% 0;
+}
